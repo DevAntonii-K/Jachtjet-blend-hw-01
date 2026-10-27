@@ -1,1 +1,24 @@
 /* Сюди додавай стилі частинки About */
+.about {
+  background-color: #1b414b;
+}
+.about-numbers {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: -0.05em;
+  color: #fbfbfb;
+}
+.about-text {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: #b4b7ba;
+}
+.about-img {
+  border-radius: 24px;
+  width: 432px;
+  height: 424px;
+  object-fit: cover;
+}
