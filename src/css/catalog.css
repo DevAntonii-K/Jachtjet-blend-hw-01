@@ -8,6 +8,7 @@
 
 .yachts-list-item {
   background-color: #fbfbfb;
+  border-radius: 24px;
 }
 
 .yachts-list-title {
@@ -54,4 +55,8 @@
 .yacht-rental-btn:focus {
   color: #1b414b;
   background-color: #fbfbfb;
+}
+
+.rounded {
+  border-radius: 24px;
 }
