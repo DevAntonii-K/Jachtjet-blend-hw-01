@@ -1,17 +1,37 @@
-.catalog-title {
-  font-weight: 500;
-  font-size: 48px;
-  line-height: 1;
-  letter-spacing: -0.02em;
+.catalog-section {
+  padding-top: 150px;
+}
+
+.catalog-section .container {
   text-align: center;
 }
 
+.yachts-list {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 50px;
+}
+
 .yachts-list-item {
+  padding: 16px 16px 32px;
   background-color: #fbfbfb;
   border-radius: 24px;
 }
 
+.yachts-list-item .list-text-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 19px;
+  margin-bottom: 24px;
+}
+
+.catalog-section .section-title {
+  margin: 0 0 75px;
+}
+
 .yachts-list-title {
+  margin: 0;
   font-weight: 500;
   letter-spacing: -0.04em;
   text-transform: uppercase;
@@ -36,6 +56,9 @@
 }
 
 .yacht-description {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
   font-size: 14px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -43,6 +66,10 @@
 }
 
 .yacht-rental-btn {
+  border: 1px solid rgba(251, 251, 251, 0.35);
+  border-radius: 15px;
+  padding: 16px 40px;
+  height: 52px;
   font-weight: 500;
   font-size: 18px;
   line-height: 1.1;
@@ -57,6 +84,8 @@
   background-color: #fbfbfb;
 }
 
-.rounded {
+.yacht-image {
+  display: block;
+  margin-bottom: 32px;
   border-radius: 24px;
 }
