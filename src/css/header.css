@@ -1,1 +1,55 @@
-/* Сюди додавай стилі частинки Header */
+.header {
+  font-family: 'Inter', sans-serif;
+  background-color: #fbfbfb;
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 48px;
+  width: 100%;
+  max-width: 1080px;
+  margin: 32px auto 0;
+  padding: 0 30px;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.header-list {
+  display: flex;
+  list-style-type: none;
+  gap: 4px;
+  align-items: center;
+  text-decoration: none;
+}
+.header-link {
+  background-color: rgba(27, 65, 75, 0.5);
+  border-radius: 8px;
+  width: 91px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 9px;
+}
+.header-link.active {
+  background-color: #1b414b;
+}
+.header-nav {
+  position: absolute;
+  left: calc(50% - 7px);
+  transform: translateX(-50%);
+  line-height: 1.3;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fbfbfb;
+}
+.header-logo {
+  font-weight: 500;
+  font-size: 20px;
+  color: #1b414b;
+  line-height: 24px;
+  width: 74px;
+}
+.header-link:hover,
+.header-link:focus {
+  background-color: #1b414b;
+}
