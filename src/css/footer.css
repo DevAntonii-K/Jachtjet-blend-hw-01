@@ -1,5 +1,5 @@
 /* Сюди додавай стилі частинки Footer */
-.section {
+.footer-section {
     background-color: rgb(27, 65, 75);
 }
 
@@ -17,6 +17,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 98px;
 }
 
 .footer_nav {}
@@ -56,6 +57,8 @@
     letter-spacing: -0.02em;
     text-align: center;
     color: #fbfbfb;
+    width: 693px;
+    align-self: center;
 }
 
 .footer_copyright-wrapper{
