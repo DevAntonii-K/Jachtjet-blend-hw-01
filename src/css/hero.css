@@ -1,8 +1,20 @@
+<<<<<<< Updated upstream
+=======
+/* Сюди додавай стилі частинки Hero */
+.hero .container {
+  display: block;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+>>>>>>> Stashed changes
 .hero-title {
+  margin-bottom: 24px;
+
   font-weight: 500;
   font-size: 80px;
 
-  /* line-height: 80px; */
   line-height: 1;
   letter-spacing: -0.02em;
   text-align: center;
@@ -10,19 +22,46 @@
 }
 
 .hero-text {
+<<<<<<< Updated upstream
   font-weight: 300;
   font-size: 16px;
 
   /* line-height: 22px; */
+=======
+  margin-bottom: 48px;
+  padding-left: 202px;
+  padding-right: 202px;
+
+  font-weight: 300;
+  font-size: 16px;
+>>>>>>> Stashed changes
   line-height: 1.4;
   text-align: center;
   color: #b4b7ba;
 }
 
 .hero-btn {
+<<<<<<< Updated upstream
   border-radius: 15px;
   padding: 16px 40px;
   width: 179px;
   height: 52px;
   background: #1b414b;
+=======
+  display: block;
+  padding: 16px 40px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background: #1b414b;
+  border-radius: 15px;
+  cursor: pointer;
+  border: none;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  color: #1b414b;
+  background-color: #fbfbfb;
+>>>>>>> Stashed changes
 }
