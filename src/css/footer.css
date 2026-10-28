@@ -1,9 +1,15 @@
 /* Сюди додавай стилі частинки Footer */
-.section {
+.footer-section {
     background-color: rgb(27, 65, 75);
 }
 
 .footer-section {}
+
+.footer_container{
+    display: flex;
+    flex-direction: column;
+
+}
 
 .footer_logo {
     font-family: inherit;
@@ -17,6 +23,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 98px;
 }
 
 .footer_nav {}
@@ -45,20 +52,29 @@
 .footer_icon{
     
 }
+
 .footer_icons-list{
     display: flex;
     gap: 10px;
 }
 .footer_title {
+    align-self: center;
+
     font-weight: 400;
     font-size: 32px;
     line-height: 1;
     letter-spacing: -0.02em;
     text-align: center;
     color: #fbfbfb;
+    max-width: 693px;
+    margin-bottom: 98px;
 }
 
 .footer_copyright-wrapper{
+    display: flex;
+    gap:32px;
+    justify-content: center;
+
     font-weight: 400;
     font-size: 14px;
     line-height: 1.1;
