@@ -1,3 +1,8 @@
+.reviews-text-block {
+    width: 854px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .reviews-title {
     font-weight: 500;
     font-size: 48px;
@@ -8,6 +13,7 @@
 }
 
 .reviews-description {
+    padding: 25px 141.5px 0;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.28571;
@@ -16,20 +22,30 @@
     color: rgb(180, 183, 186);
 }
 
+.reviews-item-list {
+    margin-top: 75px;
+    display: flex;
+    gap: 26px;
+}
+
+.rewiews-item-content {
+    padding: 32px 28px;
+}
+
 .reviews-item {
     border-radius: 24px;
-    padding: 32px 28px;
-    width: 376px;
-    height: 282px;
+    width: calc((100% - 26 * 2) / 3);
     background-color: rgb(251, 251, 251);
 }
 
 .reviews-item-image {
+    margin-right: auto;
+    margin-left: auto;
     border-radius: 72px;
-    padding: 12px;
 }
 
 .reviews-item-name {
+    margin-top: 24px;
     font-weight: 500;
     font-size: 18px;
     line-height: 1.1;
@@ -39,6 +55,7 @@
 }
 
 .reviews-item-description {
+    margin-top: 8px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.4;
