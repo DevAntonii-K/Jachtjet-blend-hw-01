@@ -12,6 +12,10 @@
 }
 
 .hero-title {
+  margin-top: 170px;
+  padding-left: 140px;
+  padding-right: 140px;
+
   font-weight: 500;
   font-size: 80px;
 
