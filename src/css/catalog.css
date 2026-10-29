@@ -23,7 +23,7 @@
   justify-content: space-between;
   align-items: center;
   height: 19px;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .catalog-section .section-title {
@@ -63,6 +63,11 @@
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: #040306;
+}
+
+.yacht-description-list {
+  border-top: 1px solid rgba(4, 3, 6, 0.1);
+  padding-top: 16px;
 }
 
 .yacht-rental-btn {
