@@ -21,6 +21,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 96px;
 }
 
 .footer_nav {
@@ -60,6 +61,8 @@
   letter-spacing: -0.02em;
   text-align: center;
   color: #fbfbfb;
+  width: 693px;
+  margin: 0 auto 99px;
 }
 
 .footer_copyright-wrapper {
