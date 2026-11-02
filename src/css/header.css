@@ -1,4 +1,5 @@
 .header {
+  position: relative;
   font-family: 'Inter', sans-serif;
   background-color: #fbfbfb;
   display: flex;
@@ -52,4 +53,28 @@
 .header-link:hover,
 .header-link:focus {
   background-color: #1b414b;
+}
+.social-list {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: auto;
+}
+
+.social-item {
+  display: flex;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+}
+.social-icon {
+  width: 20px;
+  height: 20px;
+  filter: brightness(0) saturate(100%) invert(21%) sepia(22%) saturate(1128%)
+    hue-rotate(145deg) brightness(93%);
 }
