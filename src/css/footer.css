@@ -35,6 +35,17 @@
   background-color: rgb(251 251 251 / 30%);
   padding: 15px 25px;
   border-radius: 8px;
+
+  transition: background-color 250ms ease-in, color 250ms ease-in;
+}
+
+.footer_nav-item:hover{
+  cursor: pointer;
+  background-color: rgb(251, 251, 251);
+}
+
+.footer_nav-item:hover .footer_nav-item_link{
+  color:rgb(27, 65, 75);
 }
 
 .footer_nav-item_link {
@@ -47,11 +58,26 @@
   color: #fbfbfb;
 }
 
-.footer_icon {}
+.footer_icon {
+  fill:#FBFBFB;
+
+  transition: fill 250ms ease-in;
+}
 
 .footer_icons-list {
   display: flex;
   gap: 10px;
+}
+
+.footer_icons-list-item:hover .footer_icon,
+.footer_icons-list-item:focus .footer_icon{
+  fill:rgba(251, 251, 251, 0.8);
+}
+
+.footer_icons-list-link{
+  display: block;
+  width: 20px;
+  height: 20px;
 }
 
 .footer_title {
