@@ -34,10 +34,25 @@ button {
 /* UTILITY CLASSES */
 
 .container{
-  width: 1280px;
-  padding: 0 50px;
+  width: 375;
+  padding: 0 20px;
   margin: 0 auto;
 }
+
+@media(min-width:768px){
+  .container{
+    width: 768px;
+    padding: 0 32px;
+  }
+}
+
+@media(min-width:1280px) {
+  .container {
+    width: 1280px;
+    padding: 0 50px;
+  }
+}
+
 
 .section{
   padding: 75px 0;
