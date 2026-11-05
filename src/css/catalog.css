@@ -81,6 +81,9 @@
   letter-spacing: -0.02em;
   color: #fbfbfb;
   background-color: #0e1823;
+  transition:
+    color 250ms ease-in,
+    background-color 250ms ease-in;
 }
 
 .yacht-rental-btn:hover,
