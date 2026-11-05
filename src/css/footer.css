@@ -41,6 +41,7 @@
 }
 /* ///FOOTER HEADER/// */
 
+/* FOOTER HEADER LEFT */
 .footer_header-left{
   display: flex;
   justify-content: space-between;
@@ -53,6 +54,14 @@
     gap: 132px;
   }
 }
+
+@media(min-width:1280px){
+  .footer_header-left{
+    gap: 370px;
+  }
+}
+
+/* ///FOOTER HEADER LEFT/// */
 
 .footer_nav {
 }
