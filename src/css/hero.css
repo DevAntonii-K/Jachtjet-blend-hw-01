@@ -1,11 +1,10 @@
 /* Сюди додавай стилі частинки Hero */
 .hero {
-  position: relative;
-  isolation: isolate;
-  overflow: hidden;
-
-  padding-top: 170px;
-  padding-bottom: 350px;
+  background-image: url('../img/hero/yacht.jpg');
+  padding-bottom: 200px;
+  padding-top: 250px;
+  background-size: cover;
+  background-position: center;
 }
 
 .hero-image {
@@ -17,6 +16,19 @@
   height: 100%;
   object-fit: cover;
   object-position: center;
+  margin: 0 auto;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(17, 21, 24, 0.8) 0%,
+    rgba(17, 21, 24, 0.3) 100%
+  );
 }
 
 .hero .container {
@@ -33,7 +45,6 @@
 .hero-title {
   max-width: 1000px;
   margin-top: 0;
-  margin-bottom: 24px;
 
   font-weight: 500;
   font-size: 80px;
@@ -41,18 +52,18 @@
   letter-spacing: -0.02em;
   text-align: center;
   color: #fbfbfb;
+  margin: 0 auto 24px;
 }
 
 .hero-text {
   max-width: 597px;
-  margin-top: 0;
-  margin-bottom: 48px;
 
   font-weight: 300;
   font-size: 16px;
   line-height: 1.4;
   text-align: center;
   color: #b4b7ba;
+  margin: 0 auto 48px;
 }
 
 .hero-btn {
@@ -68,6 +79,7 @@
   border: none;
   border-radius: 15px;
   cursor: pointer;
+  margin: 0 auto;
 }
 
 .hero-btn:hover,
