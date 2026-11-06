@@ -79,6 +79,7 @@
       align-items: center;
       text-decoration: none;
       font-size: 9px;
+      transition: background-color 250ms linear;
     }
   .header-logo{
     line-height: 24px;
