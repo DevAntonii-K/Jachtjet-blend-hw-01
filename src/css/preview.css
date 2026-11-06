@@ -1,0 +1,117 @@
+.jacht-preview{
+    max-width: 335px;
+    height: 675px;
+    flex-direction: column;
+    gap: 40px 0;
+    border-radius: 24px;
+    display: flex;
+    background: #fbfbfb;
+    margin: 0 auto 80px;
+    padding: 40px 20px;
+    z-index: 100;
+    position: relative;
+}
+.jacht-img{
+    position: absolute;
+    display: block;
+    width: 100%;
+    max-width: 335px;
+    left: 0;
+    top: 380px;
+    border-radius: 24px;
+}
+.preview-headline{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+}
+.preview-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+}
+.preview-facts{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+}
+.preview-main-text{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: #040306;
+    opacity: 0.4;
+}
+@media screen and (min-width: 768px) {
+    .jacht-preview {
+            max-width: 704px;
+            gap: 50px 0;
+            padding: 50px 32px;
+            margin-bottom: 326px;
+           
+            
+        }
+        .jacht-img{
+            max-width: 704px;
+            top: 478px;
+            
+        }
+        .preview-headline{
+            font-size: 48px;
+        }
+        .preview-facts{
+            font-size: 23px;
+        }
+        .preview-main-text{
+            font-size: 13px;
+            line-height: 1.15;
+        }
+        .preview-text{
+            padding-right: 251px;
+        }
+}
+@media screen and (min-width: 1200px) {
+    .jacht-preview {
+        max-width: 1180px;
+        margin-bottom: 205px;
+        flex-direction: row;
+       justify-content: space-between;
+    }
+    .preview-text{
+        padding: 0;
+        margin-left: 189px;
+        gap: 20px 0;
+    }
+    .preview-headline{
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 1;
+    }
+    .preview-facts{
+        font-size: 23px;
+        line-height: 1;
+    }
+        .preview-main-text {
+            font-size: 13px;
+        }
+        .jacht-img{
+            max-width: 1180px;
+            top: 360px;
+        }
+}
+
+@media screen and (min-width: 1400px) {
+    .jacht-preview {
+            max-width: 1340px;
+            margin-bottom: 182px;
+    }
+    .jacht-img{
+        max-width: 1340px;
+        top: 337px;
+    }
+}
